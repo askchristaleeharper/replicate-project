@@ -1,0 +1,75 @@
+
+
+body {
+    text-align: center;
+
+}
+
+.welcome-section {
+    background-color: rgb(253, 181, 42);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.welcome-text h1 {
+    font-family: 'Berkshire Swash', 'handwriting', 'raleway', sans-serif;
+    font: Raleway;
+    font-weight: 400;
+    color: rgb(49, 51, 56);
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-text h2 {
+    font: Raleway;
+    color: rgb(49, 51, 56);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome-text p {
+    font-family: webkit-standard;
+    font-size: medium;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elementor-button {
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(255, 119, 15);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    color: white;
+    fill: rgb(255, 255, 255);
+    text-decoration: white;
+
+}
+.elementor-button:hover {
+    background-color: darkred;
+}
+
+
+/*pseudo class selector practice*/
+
+p:first-line {
+    font-size:x-large
+}
+p:first-letter {
+font-size: xx-large;
+}
+
+p::after {
+    content: ***;
+}
